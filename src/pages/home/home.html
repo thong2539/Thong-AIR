@@ -9,19 +9,20 @@
 <ion-content padding>
   <div class="showhead">
     <img src="assets/imgs/logo.png">
-    <p>Welcome to PolyPages</p>
+    <p>Welcome to Thong-AIR</p>
    </div>
-   <ion-list>
-     <ion-item (click)="gotoAbout()">
-       <ion-icon name="contact"></ion-icon></ion-item> About US
-      
-   </ion-list> 
-   <ion-list>
-      <ion-item>
-        <ion-icon name="people"></ion-icon></ion-item> Community
-    </ion-list> 
-    <ion-list>
-        <ion-item>
-          <ion-icon name="image"></ion-icon></ion-item> Gallery
-      </ion-list> 
+  <ion-list>
+    <ion-item (click)="gotoAbout()">
+      <ion-icon name="contact"></ion-icon> About US
+    </ion-item>
+    <ion-item (click)="gotoContact()">
+      <ion-icon name="people"></ion-icon>Community
+    </ion-item> 
+      <ion-item (click)="gotoThong()">
+        <ion-icon name="image"></ion-icon> Thong-AIR
+      </ion-item>
+      <ion-item (click)="gotoSlides()">
+          <ion-icon name="image"></ion-icon> Gallery
+        </ion-item>
+  </ion-list>
 </ion-content>
